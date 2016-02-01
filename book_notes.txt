@@ -1,0 +1,24 @@
+Clean Code, Robert C. Martin
+
+Book notes: 
+
+Chapter 1: 
+
+
+
+Chapter 2: Meaningful Names
+    -Use intention-revealing names: if a name requires a comment, then the name does not reveal its intent.
+     Not just simplicity of the code, but implicty: the degree to which the context is not explicit in the code itself.
+     Class names: noun or noun phrase names, should not be a verb
+     Method names: verb or verb phrase names
+    -Avoid disinformation, make meaningful distinctions: avoid similar variables names, don't include List in variable name if not a list
+    Avoid noninformative variables, i.e. two classes called ProductInfo vs ProductData
+    -Use searchable names: the length of the name should correspond to the size of its scope
+    -Avoid encodings
+    -Avoid mental mapping: use common terminology for programmers
+    -Pick one work per concept: confusing to have fetch, retrieve, and get as equivalent methods of different classes
+    Use the right word: add creates a new value but adding or concatenating two exiting values, append/insert may better refer to an array
+    -Use solution domain names over problem domain names when possible: problem domain names may require programmers to ask customers what variables refer to
+    Choosing good names requries good descriptive skills and shared cultural background; teaching issue rather than a technical, business, or management issues
+    
+
